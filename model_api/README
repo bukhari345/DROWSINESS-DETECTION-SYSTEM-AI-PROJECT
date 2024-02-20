@@ -1,0 +1,21 @@
+Sb se pehle python install kerni ha and add to path ka option check kerna ha if not installed
+
+then check the python in terminal by typing python
+if it is working then run the command
+
+    pip install -r requirements.txt
+
+It will take some time to install all the necessary libraries. after that you can run the project using the command
+
+python app.py
+
+The responses will be json
+
+If there is no face then the status will be 0 {"status":0}
+   
+Otherwise the status will be one
+
+When the pred is 0 it means the user is not drowsy but when it is 1 that means that the user is drowsy
+{"status":1, "prediction":"Drowsiness Detected","pred":1}
+{"status":1, "prediction":"Maybe Drowsy","pred":1}
+{"status":1, "prediction":"No Drowsiness Detected","pred":0}
